@@ -1,0 +1,58 @@
+<svg id="e4293d22-ad9e-4a72-964a-2ed4d8a560f1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 985.65 985.65">
+    <defs>
+        <style>
+            .bf7f25f0-efcc-4632-baef-15f9cf720b02 {
+            fill: #c0e7ff;
+            }
+
+            .a1e2b069-5e36-41bc-a167-6d36e54209bf {
+            fill: #fff;
+            }
+
+            .fb9190f5-897a-4589-9e12-2bcb6886765e {
+            fill: #1684f2;
+            }
+
+            .bcb51ac6-2192-496c-b31a-ca978cbb1de3 {
+            fill: #57b7ff;
+            }
+        </style>
+    </defs>
+    <path class="bf7f25f0-efcc-4632-baef-15f9cf720b02"
+          d="M935.07,238.19V877.32H7.17V238.19l57.76-57.76H877.32Z" transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf" d="M124.61,357.54V530.8H530.8V357.54Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf" d="M124.61,588.55V761.81H530.8V588.55Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="fb9190f5-897a-4589-9e12-2bcb6886765e" d="M7.17,7.17h927.9v231H7.17Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf" d="M704.06,93.8H819.57v57.76H704.06Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf" d="M530.8,93.8H646.31v57.76H530.8Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf"
+          d="M182.31,122.68A28.88,28.88,0,1,1,153.43,93.8,28.89,28.89,0,0,1,182.31,122.68Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf"
+          d="M297.81,122.68A28.88,28.88,0,1,1,268.94,93.8,28.88,28.88,0,0,1,297.81,122.68Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="a1e2b069-5e36-41bc-a167-6d36e54209bf"
+          d="M413.32,122.68A28.88,28.88,0,1,1,384.44,93.8,28.89,28.89,0,0,1,413.32,122.68Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="bcb51ac6-2192-496c-b31a-ca978cbb1de3"
+          d="M778.89,530.8h23.6a17.08,17.08,0,0,1,17.08,17.08v69.55H761.81V547.88A17.08,17.08,0,0,1,778.89,530.8Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="bcb51ac6-2192-496c-b31a-ca978cbb1de3"
+          d="M649.92,609.08l38.69,38.69L647.77,688.6l-38.68-38.69a17.06,17.06,0,0,1,0-24.14l16.69-16.69A17.06,17.06,0,0,1,649.92,609.08Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="fb9190f5-897a-4589-9e12-2bcb6886765e"
+          d="M790.69,588.55c-111.46,0-202.14,90.68-202.14,202.14s90.68,202.14,202.14,202.14,202.14-90.68,202.14-202.14S902.15,588.55,790.69,588.55Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="bf7f25f0-efcc-4632-baef-15f9cf720b02"
+          d="M790.69,646.31A144.38,144.38,0,1,0,935.07,790.69,144.43,144.43,0,0,0,790.69,646.31Z"
+          transform="translate(-7.17 -7.17)"></path>
+    <path class="bcb51ac6-2192-496c-b31a-ca978cbb1de3"
+          d="M877.32,790.69h0a28.88,28.88,0,0,1-28.88,28.88H761.81V732.94a28.88,28.88,0,0,1,28.88-28.88h0a28.88,28.88,0,0,1,28.88,28.88v28.87h28.87A28.88,28.88,0,0,1,877.32,790.69Z"
+          transform="translate(-7.17 -7.17)"></path>
+</svg>
