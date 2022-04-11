@@ -30,6 +30,16 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Dedicated',
     component: () => import('../views/Dedicated.vue'),
   },
+  {
+    path: '/free-proxy-list',
+    name: 'Free',
+    component: () => import('../views/Free.vue'),
+  },
+  {
+    path: '/:pathMatch(.*)',
+    name: '404',
+    component: () => import('../views/404.vue'),
+  },
 ];
 
 const router = createRouter({

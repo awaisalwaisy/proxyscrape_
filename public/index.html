@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
-    <!-- BASIC META-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="ProxyScrape">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--page specific tags-->
+  <!-- BASIC META-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="ProxyScrape">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--page specific tags-->
 
-    <meta name='description' content='<?php echo $pagedescription; ?>'>
-    <meta property='og:description' content='<?php echo $pagedescription; ?>'>
+  <meta name='description' content='<?php echo $pagedescription; ?>'>
+  <meta property='og:description' content='<?php echo $pagedescription; ?>'>
 
-    <meta name='keywords' content='<?php echo $pagekeywords; ?>'>
-    <meta name="facebook-domain-verification" content="00e61yfdunfqc7twc7qnsqx13g61vl" />
+  <meta name='keywords' content=''>
+  <meta name="facebook-domain-verification" content="00e61yfdunfqc7twc7qnsqx13g61vl" />
 
-    <meta property='og:title' content='<?php echo $pagetitle; ?>'>
+  <meta property='og:title' content=''>
 
-    <!-- FAVICON -->
-    <link rel="icon" href="https://cdn.proxyscrape.com/img/favicon/favicon.ico">
-    <meta content='https://cdn.proxyscrape.com/img/favicon/favicon.png?v=3' property='og:image'>
-    <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-SemiBold.woff2"
-          type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-Regular.woff2"
-          type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-Medium.woff2"
-          type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-Bold.woff2"
-          type="font/woff2" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/normalize.min.css?v=1">
-    <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/bootstrap.min.css?v=1">
-    <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/fonts.min.css?v=1">
-    <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/style.min.css?v=35">
-    <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/nice-select.min.css?v=1">
-    <script src="https://cdn.proxyscrape.com/js/jquery.min.js"></script>
+  <!-- FAVICON -->
+  <link rel="icon" href="https://cdn.proxyscrape.com/img/favicon/favicon.ico">
+  <meta content='https://cdn.proxyscrape.com/img/favicon/favicon.png?v=3' property='og:image'>
+  <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-SemiBold.woff2"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-Regular.woff2"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-Medium.woff2"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="https://cdn.proxyscrape.com/fonts/montserrat/Montserrat-Bold.woff2"
+    type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/normalize.min.css?v=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/bootstrap.min.css?v=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/fonts.min.css?v=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/style.min.css?v=35">
+  <link rel="stylesheet" type="text/css" href="https://cdn.proxyscrape.com/css/nice-select.min.css?v=1">
+  <script src="https://cdn.proxyscrape.com/js/jquery.min.js"></script>
 
-    <title><%= htmlWebpackPlugin.options.title %></title>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
 </head>
-<body style='background-image: url("https://cdn.proxyscrape.com/img/background.jpg"); background-color: rgb(255, 255, 255);'>
-<noscript>
-    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
-</noscript>
-<div id="app"></div>
 
-<script src="https://cdn.proxyscrape.com/js/jquery.nice-select2.min.js?v=4"></script>
-<script src="https://cdn.proxyscrape.com/js/jquery.sticky.js"></script>
-<script src="https://cdn.proxyscrape.com/js/bootstrap.min.js"></script>
-<!-- built files will be auto injected -->
+<body style='background-image: url("https://cdn.proxyscrape.com/img/background.jpg"); 
+  background-color: rgb(255, 255, 255);'>
+  <noscript>
+    <strong>
+      We're sorry but <%= htmlWebpackPlugin.options.title %>
+        doesn't work properly without JavaScript enabled.
+        Please enable it to continue.
+    </strong>
+  </noscript>
+  <div id="app"></div>
+
+  <script src="https://cdn.proxyscrape.com/js/jquery.nice-select2.min.js?v=4"></script>
+  <script src="https://cdn.proxyscrape.com/js/jquery.sticky.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.proxyscrape.com/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">$(document).ready(function () {
+      $('select').niceSelect();
+      $("#sticky-wrapper").sticky({ topSpacing: 0, zIndex: 5 });
+      $("#bottomlogo").html("<img src='https://cdn.proxyscrape.com/img/logo/light_text_logo.png' alt='proxyscrape light logo'>");
+      $('footer').css('background-image', 'url(https://cdn.proxyscrape.com/img/footer-bg.jpg)');
+
+      $('<img/>').attr('src', 'https://cdn.proxyscrape.com/img/background.jpg').on('load', function () {
+        $(this).remove();
+        $('body').css('background-image', 'url(https://cdn.proxyscrape.com/img/background.jpg)');
+        $('body').css('background-color', '#fff');
+      });
+    });
+    $(document).click(function (event) {
+      if (!$(event.target).is('#mainmenu *')) {
+        if ($(window).width() <= 767) {
+          $('#mainmenu').collapse('hide')
+        }
+      }
+    });
+
+  </script>
+
+  <!-- built files will be auto injected -->
 </body>
+
 </html>

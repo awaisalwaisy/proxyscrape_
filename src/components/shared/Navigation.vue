@@ -55,7 +55,8 @@
                     </a>
                     <div class="collapse show" data-parent="#navaccordion">
                       <ul class="dropdown-nav dropdown-nav-left">
-                        <li><a href="/free-proxy-list">Free proxy list</a></li>
+                        <li>
+                          <router-link to='/free-proxy-list'>Free proxy list</router-link></li>
                         <li><a href="/web-proxy">Web proxy</a></li>
 
                         <li><a href="/online-proxy-checker">Online proxy checker</a></li>
