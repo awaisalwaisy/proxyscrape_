@@ -1,10 +1,11 @@
 <template>
   <div class="col-lg-6 col-md-12 col-xs-12">
     <div class="textcard">
-      <h2>Quick recap;<br>
+      <h2>
+        Quick recap;<br />
         The cool things you will get:
       </h2>
-      <br>
+      <br />
       <ul>
         <li>Unlimited bandwidth</li>
         <li>Unlimited concurrent connections</li>
@@ -15,25 +16,23 @@
         <li>Outstanding support that's ready to help you</li>
       </ul>
     </div>
-    <country-box/>
+    <country-box />
   </div>
 
   <div class="col-lg-6 col-md-12 col-xs-12 bigvp">
     <div class="imagecard">
-      <img alt="good proxies" src="https://cdn.proxyscrape.com/img/gp2.gif">
+      <img alt="good proxies" src="https://cdn.proxyscrape.com/img/gp2.gif" />
     </div>
   </div>
   <div class="col-lg-6 col-md-12 col-xs-12 smallvp">
     <div class="imagecard">
-      <img alt="good proxies" src="https://cdn.proxyscrape.com/img/gp2.gif">
+      <img alt="good proxies" src="https://cdn.proxyscrape.com/img/gp2.gif" />
     </div>
   </div>
 </template>
 
-<script lang='ts' setup>
+<script setup lang="ts">
+import CountryBox from '@/components/services/premium/shop-container/country-box.vue';
+</script>
 
-import CountryBox from '@/components/services/premium/shop-container/country-box.vue'; </script>
-
-<style scoped>
-
-</style>
+<style scoped></style>

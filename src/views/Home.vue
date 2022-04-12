@@ -32,13 +32,6 @@
             </div>
           </div>
           <ClientReviews />
-
-          <div class="col-md-12">
-            <div class="section-title" style="margin-bottom: 50px">
-              <h2>Blog</h2>
-              <img alt="section-shape" src="https://cdn.proxyscrape.com/img/section-shape.png" />
-            </div>
-          </div>
           <BlogSection />
           <BannerSection />
         </div>
@@ -58,6 +51,4 @@ import BlogSection from '@/components/shared/BlogSection.vue';
 import BannerSection from '@/components/home/BannerSection.vue';
 </script>
 
-<style scoped>
-@import url('../assets/css/home.css');
-</style>
+<style scoped src="../assets/css/home.css"></style>

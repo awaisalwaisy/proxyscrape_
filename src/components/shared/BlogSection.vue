@@ -1,4 +1,10 @@
 <template>
+  <div class="col-md-12">
+    <div class="section-title" style="margin-bottom: 50px">
+      <h2>Blog</h2>
+      <img alt="section-shape" src="https://cdn.proxyscrape.com/img/section-shape.png" />
+    </div>
+  </div>
   <div class="col-lg-4 col-md-6 col-12">
     <div class="itemcard downloadcard" style="padding: 0">
       <a href="https://proxyscrape.com/blog/free-proxies-are-not-safe-to-use/">

@@ -1,0 +1,73 @@
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 4px;
+    line-height: 8px;
+    text-align: left;
+    font-size: 12px;
+    vertical-align: middle;
+    border-top: 1px solid #dddddd;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table thead th {
+    vertical-align: bottom;
+}
+
+.proxy_loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid #808080;
+    width: 15px;
+    height: 15px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.input {
+    text-align: center;
+}
+
+.jumbotron {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 15px 30px 0 rgba(0, 7, 2.74, 0.05);
+}
+
+.jumbotron:hover {
+    box-shadow: 0 15px 30px 0 rgba(0, 35, 137, 0.15);
+}

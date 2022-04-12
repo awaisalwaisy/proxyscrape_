@@ -1,7 +1,7 @@
 <template>
-  <Navigation/>
-  <router-view/>
-  <Footer/>
+  <Navigation />
+  <router-view />
+  <Footer />
 </template>
 
 <script lang="ts" setup>
@@ -12,7 +12,7 @@ import Footer from '@/components/shared/FooterSection.vue';
 <style>
 @import url('./assets/css/fonts.css');
 
-body {
+/* body {
   background-size: 100% 100%;
-}
+} */
 </style>

@@ -1,10 +1,7 @@
 <template>
- <div>apic a;;</div>
+  <div>apic a;;</div>
 </template>
 
-<script setup lang='ts'>
-</script>
+<script setup lang="ts"></script>
 
-<style scoped>
-
-</style>
+<style scoped src="../../assets/css/home.css"></style>

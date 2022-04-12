@@ -27,9 +27,10 @@
                   style="background-color: unset; display: flex; justify-content: center"
                 >
                   <img
-                    src='@/assets/img/svg/videoplay.svg'
-                    style="width: 20px; margin-right: 5px;"
-                    alt="">
+                    src="@/assets/img/svg/videoplay.svg"
+                    style="width: 20px; margin-right: 5px"
+                    alt=""
+                  />
                   Welcome video
                 </button>
               </div>
@@ -43,9 +44,6 @@
   </div>
 </template>
 
-<script lang='ts' setup>
+<script lang="ts" setup></script>
 
-</script>
-
-<style scoped>
-</style>
+<style scoped src="../../assets/css/home.css"></style>

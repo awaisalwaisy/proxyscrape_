@@ -1,18 +1,17 @@
 <template>
-  <main style="min-height: 100vh;">
+  <main style="min-height: 100vh">
     <div class="container">
-      <ShopContainer/>
-      <CountryContainer/>
+      <ShopContainer />
+      <CountryContainer />
       <div class="row">
-        <PaymentMethods/>
-        <div class="col-12" style="padding-top: 10px;padding-bottom: 10px;">
-
+        <PaymentMethods />
+        <div class="col-12" style="padding-top: 10px; padding-bottom: 10px">
           <div class="elfsight-app-c349f1d8-7c7e-4b27-93c1-be19944e141b"></div>
         </div>
 
         <div class="col-lg-12 col-md-12 col-xs-12">
           <div class="textcard disclaimer">
-            <input id="countryselect" style="display: none;" type="number" value="2">
+            <input id="countryselect" style="display: none" type="number" value="2" />
           </div>
         </div>
 
@@ -38,13 +37,11 @@
   </main>
 </template>
 
-<script lang='ts' setup>
-
+<script lang="ts" setup>
 import ShopContainer from '@/components/services/premium/ShopContainer.vue';
 import CountryContainer from '@/components/services/premium/CountryContainer.vue';
 import PaymentMethods from '@/components/shared/PaymentMethods.vue';
-import PremiumFAQ from '@/components/services/premium/PremiumFAQ.vue'; </script>
+import PremiumFAQ from '@/components/services/premium/PremiumFAQ.vue';
+</script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

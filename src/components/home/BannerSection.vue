@@ -3,8 +3,8 @@
     <img
       src="https://cdn.proxyscrape.com/img/logo/dark_text_logo.png"
       alt="dark proxyscrape logo"
-      style=" width: 20%; min-width: 170px; "
-    >
+      style="width: 20%; min-width: 170px"
+    />
   </div>
 
   <div class="row finaladv w-100">
@@ -12,18 +12,18 @@
       <div class="itemcard downloadcard">
         <div class="row">
           <div class="col-2">
-            <img src='@/assets/img/svg/proxy-datacenters.svg'>
+            <img src="@/assets/img/svg/proxy-datacenters.svg" />
             <h2>50 000 datacenter proxies</h2>
           </div>
           <div class="col-3">+</div>
 
           <div class="col-2">
-            <img src='@/assets/img/svg/unlimited-bandwidth.svg'>
+            <img src="@/assets/img/svg/unlimited-bandwidth.svg" />
             <h2>Unlimited bandwidth</h2>
           </div>
           <div class="col-3">+</div>
           <div class="col-2">
-            <img src='@/assets/img/svg/uptime-100.svg'>
+            <img src="@/assets/img/svg/uptime-100.svg" />
             <h2>99% uptime</h2>
           </div>
         </div>
@@ -33,10 +33,9 @@
   </div>
 </template>
 
-<script setup lang='ts'>
-</script>
+<script setup lang="ts"></script>
 
-<style scoped>
+<style scoped src="../../assets/css/home.css">
 .banner-title {
   display: flex;
   justify-content: center;
