@@ -56,9 +56,19 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/Help.vue'),
   },
   {
+    path: '/contact',
+    name: 'Contact',
+    component: () => import('../views/Contact.vue'),
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: () => import('../views/Blog.vue'),
+  },
+  {
     path: '/:pathMatch(.*)',
     name: '404',
-    component: () => import('../views/404.vue'),
+    component: () => import('@/views/404.vue'),
   },
 ];
 

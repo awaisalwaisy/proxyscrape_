@@ -66,7 +66,7 @@
                             Online proxy checker
                           </router-link>
                         </li>
-                        <li><a href="/proxy-filter">Proxy filter</a></li>
+                        <li><router-link to="/proxy-filter">Proxy filter</router-link></li>
                         <li>
                           <a href="https://docs.proxyscrape.com/" target="_blank"> API </a>
                         </li>
@@ -87,10 +87,10 @@
                     </a>
                     <div id="helpmenu" class="collapse" data-parent="#navaccordion">
                       <ul class="dropdown-nav dropdown-nav-left">
-                        <li><a href="/help-center">Visit help center</a></li>
+                        <li><router-link to="/help-center">Visit help center</router-link></li>
                         <li><a href="https://support.proxyscrape.com/">Knowledge base</a></li>
                         <li><a href="https://roadmap.proxyscrape.com/">Roadmap</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><router-link to="/contact">Contact</router-link></li>
                       </ul>
                     </div>
                   </li>
