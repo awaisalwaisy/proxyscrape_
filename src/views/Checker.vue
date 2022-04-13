@@ -14,6 +14,7 @@
           <CheckerOutput />
           <CheckerHandler />
         </div>
+        <BlogSection />
       </div>
     </div>
   </main>
@@ -22,6 +23,7 @@
 <script setup lang="ts">
 import CheckerOutput from '@/components/freebies/checker/CheckerOutput.vue';
 import CheckerHandler from '@/components/freebies/checker/CheckerHandler.vue';
+import BlogSection from '@/components/shared/BlogSection.vue';
 </script>
 
 <style scoped src="../assets/css/online-proxy-checker.css"></style>

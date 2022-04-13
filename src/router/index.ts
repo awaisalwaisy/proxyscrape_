@@ -46,6 +46,16 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/Checker.vue'),
   },
   {
+    path: '/proxy-filter',
+    name: 'Filter',
+    component: () => import('../views/Filter.vue'),
+  },
+  {
+    path: '/help-center',
+    name: 'Help',
+    component: () => import('../views/Help.vue'),
+  },
+  {
     path: '/:pathMatch(.*)',
     name: '404',
     component: () => import('../views/404.vue'),
